@@ -1,0 +1,9 @@
+public class BankStatement{
+public int BankID { get; set; }
+public string FirstName { get; set; }
+public string LastName { get; set; }
+public BigInteger CardNumber { get; set; }
+public date ExpiryDate { get; set; }
+public int SecurityCode { get; set; }
+public date CurrentDate { get; set; }
+public bool ActiveAccount { get; set; }
